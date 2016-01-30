@@ -1,5 +1,5 @@
 # Opentok React
-## A basic react js component for Opentok.
+## A basic react js component for Opentok webRTC.
 
 This wraps the opentok client-side js library into a React component (with ES6-style syntax), based on [suggestions made in the Tokbox forum](https://forums.tokbox.com/discussion-and-questions/tokbox-react-js-flux-t47278). Very basic functionality at this point and I am new to React, so please feel free to provide corrections, suggestions, PRs, etc...
 
