@@ -3,9 +3,7 @@
 
 This wraps the opentok client-side js library into a React component (with ES6-style syntax), based on [suggestions made in the Tokbox forum](https://forums.tokbox.com/discussion-and-questions/tokbox-react-js-flux-t47278). Very basic functionality at this point and I am new to React, so please feel free to provide corrections, suggestions, PRs, etc...
 
-This is far from feature complete, but 
-
-#### Add opentok.min.js to your html, above where your react js bundle is included:
+##### 1. Add opentok.min.js to your html, above where your react js bundle is included:
 
 ```html
 <script src="https://static.opentok.com/v2/js/opentok.min.js"></script>
@@ -13,7 +11,7 @@ This is far from feature complete, but
 
 Set your API key, session ID, and tokens in `components/constants/opentokSettings.js`.  You can create a test session and tokens from the Opentok dashboard. (For creating sessions and tokens dynamically, you'll need to create a server-side session and token creation API using one of the Opentok server SDKs, which is beyond the scope of this example).
 
-#### Publishing a video/audio stream
+##### 2. Publishing a video/audio stream
 
 Create a component, e.g. `ChatPublisher`:
 
@@ -41,7 +39,7 @@ class ChatPublisher extends Component {
 export default ChatPublisher;
 ```
 
-#### Subscribing to streams
+##### 3. Subscribing to streams
 
 Create another component, e.g. `ChatSubscriber`:
 
