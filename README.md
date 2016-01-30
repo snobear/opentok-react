@@ -54,7 +54,7 @@ class ChatSubscriber extends Component {
             <div>
                 <h1>Published videos in this Session</h1>
                 <OpentokVideo
-                     type='publish'
+                     type='subscribe'
                      apiKey={OpentokSettings.API_KEY}
                      sessionId={OpentokSettings.SESSION_ID}
                      token={OpentokSettings.TOKEN_SUB}
@@ -67,4 +67,4 @@ class ChatSubscriber extends Component {
 export default ChatSubscriber;
 ```
 
-The only difference between the two is the token used, where the second one is a subscriber-specific token.  You could thus build a much more DRY component.
+The only difference between the two is the token used (subscriber-specific token for subscribing) and the `type` prop setting.  You could thus build a much more DRY component.
