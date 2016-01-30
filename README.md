@@ -1,7 +1,9 @@
 # Opentok React
 ## A basic react js component for Opentok.
 
-This wraps the opentok client-side js library into a React component (with ES6-style syntax).
+This wraps the opentok client-side js library into a React component (with ES6-style syntax), based on [suggestions made in the Tokbox forum](https://forums.tokbox.com/discussion-and-questions/tokbox-react-js-flux-t47278). Very basic functionality at this point and I am new to React, so please feel free to provide corrections, suggestions, PRs, etc...
+
+This is far from feature complete, but 
 
 #### Add opentok.min.js to your html, above where your react js bundle is included:
 
