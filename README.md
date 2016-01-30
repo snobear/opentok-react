@@ -5,7 +5,7 @@ This wraps the opentok client-side js library into a React component (with ES6-s
 
 #### Add opentok.min.js to your html, above where your react js bundle is included:
 
-```
+```html
 <script src="https://static.opentok.com/v2/js/opentok.min.js"></script>
 ```
 
@@ -15,7 +15,7 @@ Set your API key, session ID, and tokens in `components/constants/opentokSetting
 
 Create a component, e.g. `ChatPublisher`:
 
-```
+```javascript
 import React, {Component} from 'react';
 import OpentokVideo from '../opentok/opentok';
 import OpentokSettings from '../constants/opentokSettings';
@@ -43,7 +43,7 @@ export default ChatPublisher;
 
 Create another component, e.g. `ChatSubscriber`:
 
-```
+```javascript
 import React, {Component} from 'react';
 import OpentokVideo from '../opentok/opentok';
 import OpentokSettings from '../constants/opentokSettings';
@@ -67,3 +67,4 @@ class ChatSubscriber extends Component {
 export default ChatSubscriber;
 ```
 
+The only difference between the two is the token used, where the second one is a subscriber-specific token.  You could thus build a much more DRY component.
