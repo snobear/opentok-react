@@ -4,7 +4,6 @@ import React, {Component} from 'react';
 class OpentokVideo extends Component {
     constructor(props) {
         super(props);
-
     }
 
     componentDidMount() {
