@@ -1,4 +1,4 @@
-* NOTE: Please follow [this Opentok forum post](https://support.tokbox.com/hc/en-us/community/posts/205548756-How-to-use-OpenTok-with-React-) for changes not reflected in this repo: 
+# NOTE: Please follow [this Opentok forum post](https://support.tokbox.com/hc/en-us/community/posts/205548756-How-to-use-OpenTok-with-React-) for changes not reflected in this repo
 
 # Opentok React
 ## A basic react js component for Opentok webRTC.
